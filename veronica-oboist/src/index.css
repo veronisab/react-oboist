@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  background-color: #98ded8;
+  color: #000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 60vw;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about {
+  background-color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 100;
+  text-align: center;
+}

@@ -1,23 +1,20 @@
 import About from './About'
+import More from './More'
+import Youtube from './Youtube'
+import Footer from './Footer'
 
-function App() {
+export default function App() {
 
   return (
     <div className="container">
       <h1>Veronica Ulrikkeholm</h1>
-      <About
-        mainText="Norwegian/Danish oboist Veronica Ulrikkeholm is currently based in and around Oslo, Norway"
-        moreText={"mer tekst her blablabla"} />
-        
-      <About
-        mainText="Calendar"
-        moreText={"26.mars konsert"} />
+
+      <div className="page">
+        <About />
+        <Youtube />
+      </div>
       
-           <About
-        mainText="Contact"
-        moreText={"mail@veronicaisabelle.com"} />
+      <Footer />
     </div>
   )
 }
-
-export default App

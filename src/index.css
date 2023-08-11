@@ -52,7 +52,7 @@ svg {
   fill: #fff;
   height: 20px;
   width: 20px;
-  margin: 0 8px;
+  margin: 0 4px;
 }
 
 .navigation {
@@ -76,6 +76,7 @@ svg {
 .push-right {
   margin-left: auto;
 }
+
 
 iframe {
   width: 100%;
@@ -110,5 +111,10 @@ iframe {
 
   .content {
     margin-top: 8rem;
+  }
+  svg {
+    height: 20px;
+    width: 20px;
+    margin: 0 8px;
   }
 }

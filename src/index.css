@@ -19,12 +19,11 @@ body {
   margin: 0;
   padding: 1rem;
   display: flex;
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
-  background-size: cover;
-  background-color: #11111188;
-  background-blend-mode: darken;
 }
+
 
 body::after {
   content: "";
@@ -36,6 +35,8 @@ body::after {
   z-index: -1; /* needed to keep in the background */
   background: url("./assets/vero.jpg") center center;
   background-size: cover;
+  background-color: #11111188;
+  background-blend-mode: darken;
 }
 
 a {
@@ -55,7 +56,7 @@ svg {
 }
 
 .navigation {
-  width: 90%;
+  width: 95%;
   display: flex;
   justify-content: center;
   margin: 2rem;
@@ -92,7 +93,7 @@ iframe {
     align-items: center;
   }
 
-  body {
+  body::after {
     background: url("./assets/vero.jpg") no-repeat center fixed;
     background-size: cover;
     background-color: #111111cc;
@@ -101,6 +102,7 @@ iframe {
 
   .navigation {
     position: fixed;
+    width: 90%;
     top: 0;
     max-width: 70vw;
     gap: 20px;

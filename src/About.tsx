@@ -8,7 +8,7 @@ export function About(){
                 and premiered 8 new works for the oboe from Danish, Norwegian, British, American, Canadian and Argentinian composers.<br />
                 <br />
 
-                She has done an Post-graduate Artist Diploma (supported by the Mimi Opperby Award) at the Royal College of Music, where she 
+                She has done an Post-graduate Artist Diploma (supported by the Mimi Opperby Award) at the Royal College of Music London, where she 
                 studied with Juliana Koch and Olivier Stankiewicz, Fabien Thouand, Christine Pendrill, and Jacques Tys. She has also studied 
                 with Johannes Grosso and Min Hua Chiu in Oslo, and holds a Master of Music degree from the Royal Danish Academy of Music in 
                 Copenhagen, where she studied with Max Artved and Joakim Dam Thomsen; and a bachelor degree from the Royal Academy of Music 

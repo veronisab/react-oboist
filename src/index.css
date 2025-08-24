@@ -56,8 +56,9 @@ svg {
 }
 
 .navigation {
-  width: 95%;
+  width: 90%;
   display: flex;
+  align-items: center;
   justify-content: center;
   margin: 2rem;
   color: #fff;
@@ -85,6 +86,10 @@ iframe {
   border-radius: 3px;
 }
 
+.content {
+margin: 0 1rem;
+}
+
 
 @media screen and (width > 500px) {
   .app {
@@ -109,9 +114,8 @@ iframe {
     gap: 20px;
   }
 
-  .content {
-    margin-top: 8rem;
-  }
+
+
   svg {
     height: 20px;
     width: 20px;
